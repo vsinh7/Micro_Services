@@ -59,6 +59,11 @@ class AuthController {
             return res.status(500).json({message:"Something went wrong! Please try again later"})
         }
     }
+
+    static async user(req ,res){
+        const user = req.user;
+        return res.status(200).json({user: user})
+    }
 }
 
 export default AuthController;
