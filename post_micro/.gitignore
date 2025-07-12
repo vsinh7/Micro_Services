@@ -1,0 +1,65 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# Output of build process
+dist/
+build/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml.override
+
+# Local development artifacts
+*.tgz
+*.swp
+*.swo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Jest
+jest-test-results.json
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Specific microservice subfolders (if needed)
+auth_service/node_modules/
+user_service/node_modules/
+api_gateway/node_modules/
+shared_lib/node_modules/
