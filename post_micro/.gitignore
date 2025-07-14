@@ -18,6 +18,7 @@ pids/
 coverage/
 
 # Environment files
+*.env
 .env
 .env.local
 .env.development.local
@@ -63,3 +64,5 @@ auth_service/node_modules/
 user_service/node_modules/
 api_gateway/node_modules/
 shared_lib/node_modules/
+
+/generated/prisma
